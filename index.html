@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Survey Site!</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Survey</h1>
+
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="person">What is your name?</label>
+            <input id="person" class="form-control" type="text">
+      </div>
+
+      <p><strong>What is your favorite food?</strong></p>
+      <select class="form-control" id="food">
+        <option>Mexican</option>
+        <option>Thai</option>
+        <option>Indian</option>
+        <option>Sushi</option>
+      </select>
+
+    <p><strong>What is your favorite music genre?</strong></p>
+    <div class="radio">
+      <label>
+        <input type="radio" name="music" value="Dubstep?">
+        Dubstep
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="music" value="Jazz Flute?">
+        Jazz Flute?
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="music" value="Polka?">
+        Polka?
+      </label>
+    </div>
+    <button type="submit" class="btn">Submit!</button>
+      </form>
+      <div id="output">
+      </div>
+
+
+
+    </form>
+    </div>
+  </body>
+</html>
